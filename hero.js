@@ -34,15 +34,19 @@ const atacar = () => {
     heroi1.tipo = resultado;
 
     if (heroi1.tipo === 'mago' || heroi1.tipo === 'mago ') {
+        heroi1.tipo === 'mago';
         tipoAtaque = 'magia';
 
     } else if (heroi1.tipo === 'guerreiro' || heroi1.tipo === 'guerreiro ') {
+        heroi1.tipo === 'guerreiro';
         tipoAtaque = 'espada';
 
     } else if (heroi1.tipo === 'monge' || heroi1.tipo === 'monge ') {
+        heroi1.tipo === 'monge';
         tipoAtaque = 'Artes Marciais';
 
     } else if (heroi1.tipo === 'ninja' || heroi1.tipo === 'ninja ') {
+        heroi1.tipo === 'ninja';
         tipoAtaque = 'Shuriken';
 
     } else {
