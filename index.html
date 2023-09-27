@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <section class="jogo">
+        <div class="modal-container">
+            <div class="modal">
+                <h2>Modo de Ataque</h2>
+                <hr>
+                <img src="" alt="" class="imagem-heroi">
+                <hr>
+                <h2 class="tipo-ataque"></h2>
+                <div class="btns">
+                    <button class="btnOk" onclick="fecharModal()">OK</button>
+                </div>
+            </div>
+        </div>
+        <div class="jogo-itens">
+            <h1>Escolha o seu Héroi</h1>
+            <div class="imagens">
+                <div class="imagem-tipo">
+                    <img src="images/guerreiro.png" alt="">
+                    <h4>Guerreiro</h4>
+                </div>
+                <div class="imagem-tipo">
+                    <img src="images/mago.png" alt="">
+                    <h4>Mago</h4>
+                </div>
+                <div class="imagem-tipo">
+                    <img src="images/monge.png" alt="">
+                    <h4>Monge</h4>
+                </div>
+                <div class="imagem-tipo">
+                    <img src="images/ninja.png" alt="">
+                    <h4>Ninja</h4>
+                </div>
+            </div>
+            <input type="text" class="tipo" placeholder="Digite o Héroi escolhido">
+                <button class="btnAtacar" onclick="atacar()">Atacar</button>
+
+        </div>
+    </section>
+    <script src="hero.js"></script>
+</body>
+</html>
